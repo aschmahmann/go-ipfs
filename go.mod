@@ -81,7 +81,7 @@ require (
 	github.com/libp2p/go-libp2p-peerstore v0.0.6
 	github.com/libp2p/go-libp2p-pnet v0.0.1
 	github.com/libp2p/go-libp2p-protocol v0.0.1
-	github.com/libp2p/go-libp2p-pubsub v0.0.3
+	github.com/libp2p/go-libp2p-pubsub v0.0.5
 	github.com/libp2p/go-libp2p-pubsub-router v0.0.3
 	github.com/libp2p/go-libp2p-quic-transport v0.0.3
 	github.com/libp2p/go-libp2p-record v0.0.1
@@ -120,8 +120,13 @@ require (
 	go.uber.org/multierr v1.1.0 // indirect
 	go4.org v0.0.0-20190313082347-94abd6928b1d // indirect
 	golang.org/x/sys v0.0.0-20190522044717-8097e1b27ff5
+	google.golang.org/appengine v1.4.0 // indirect
 	gopkg.in/cheggaaa/pb.v1 v1.0.28
 	gotest.tools/gotestsum v0.3.4
 )
 
 go 1.12
+
+replace github.com/libp2p/go-libp2p-pubsub => github.com/aschmahmann/go-libp2p-pubsub v0.0.1-ipns
+
+replace github.com/libp2p/go-libp2p-pubsub-router => github.com/aschmahmann/go-libp2p-pubsub-router v0.0.4-alpha
