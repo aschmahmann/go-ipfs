@@ -1,8 +1,9 @@
 module github.com/ipfs/go-ipfs
 
 require (
-	bazil.org/fuse v0.0.0-20200117225306-7b5117fecadc
+	bazil.org/fuse v0.0.0-20200407214033-5883e5a4b512
 	contrib.go.opencensus.io/exporter/prometheus v0.4.0
+	github.com/aschmahmann/go-ipld-bittorrent v0.0.0-20220401201843-17fb1f5c31c8
 	github.com/blang/semver/v4 v4.0.0
 	github.com/ceramicnetwork/go-dag-jose v0.1.0
 	github.com/cheggaaa/pb v1.0.29
@@ -61,7 +62,7 @@ require (
 	github.com/ipfs/tar-utils v0.0.2
 	github.com/ipld/go-car v0.3.2
 	github.com/ipld/go-codec-dagpb v1.3.0
-	github.com/ipld/go-ipld-prime v0.14.2
+	github.com/ipld/go-ipld-prime v0.16.0
 	github.com/jbenet/go-random v0.0.0-20190219211222-123a90aedc0c
 	github.com/jbenet/go-temp-err-catcher v0.1.0
 	github.com/jbenet/goprocess v0.1.4
@@ -107,9 +108,9 @@ require (
 	go.uber.org/dig v1.14.0
 	go.uber.org/fx v1.16.0
 	go.uber.org/zap v1.21.0
-	golang.org/x/crypto v0.0.0-20210921155107-089bfa567519
+	golang.org/x/crypto v0.0.0-20220131195533-30dcbda58838
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
-	golang.org/x/sys v0.0.0-20211025112917-711f33c9992c
+	golang.org/x/sys v0.0.0-20211216021012-1d35b9e2eb4e
 )
 
 go 1.16
