@@ -5,6 +5,7 @@ require (
 	contrib.go.opencensus.io/exporter/prometheus v0.4.0
 	github.com/aschmahmann/go-ipld-bittorrent v0.0.0-20220401201843-17fb1f5c31c8
 	github.com/blang/semver/v4 v4.0.0
+	github.com/bytecodealliance/wasmtime-go v0.35.0
 	github.com/ceramicnetwork/go-dag-jose v0.1.0
 	github.com/cheggaaa/pb v1.0.29
 	github.com/coreos/go-systemd/v22 v22.3.2
